@@ -1,0 +1,163 @@
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+    background-color: #f5f5dd;
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 3px;
+    color:  #664433;
+}
+h2 {
+    margin-top: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 25px;
+    background: #99bb22 url("images/icon/dish.png") no-repeat;
+    background-size: 13px;
+    background-position: 6px;
+}
+h3{
+    color: #664433;
+    margin-left: 250px;
+}
+ul {
+    list-style: none;
+    margin: 3px;
+    padding:  0;
+}
+a{
+    text-decoration: none;
+}
+.head {
+    border-bottom: dotted 1px;
+    background-color: #ffffff;
+    min-width: 960px;
+}
+header{
+    background-color:#ffffff;
+    width:960px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+header img {
+    margin-top: 5px;
+}
+input{
+    display:block;
+    float:right;
+}
+input[type="submit"] {
+    float: right;
+    /* clear: both; */
+}
+header ul {
+    width: 960px;
+}
+header li a {
+    float: left;
+    width: 191px;
+    text-align: center;
+    border-right: solid 1px;
+    color: #664433;
+}
+header li:last-child a {
+    border: 0;
+}
+.pict {
+    display:  block;
+    width: 960px;
+    margin: 0 auto 15px;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+main section {
+    background-color: #ffffff;
+    padding: 10px;
+}
+main section {
+    margin-bottom: 15px;
+}
+nav {
+    width: 156px;
+    float : left;
+}
+nav li {
+    background: url(images/icon/arrow.png) no-repeat 3px;
+    border-bottom: dotted 1px;
+}
+nav li:last-child {
+    border: 0;
+}
+nav a {
+    display:  block;
+    padding-left: 17px;
+    color: #333333;
+}
+article {
+    width: 620px;
+    float: left;
+    margin: 0 15px;
+}
+article p {
+    margin-left: 250px;
+    text-indent: 1em;
+}
+figure {
+    margin: 0;
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+figcaption {
+    font-size: 12px;
+}
+.fleft {
+    float: left;
+}
+.next {
+    margin-left: 500px;
+    color: #fc8833;
+}
+aside {
+    width: 154px;
+    float: left;
+}
+.footer {
+    background-color:  #ffffff;
+    clear: both;
+    padding: 10px 0;
+    min-width: 960px;
+    border-top: dotted 1px;
+}
+footer {
+    text-align:  center;
+    width: 960px;
+    background-color:  #ffffff;
+    margin: 0 auto;
+    /* padding: 10px 0; */
+}
+footer ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 620px;
+}
+footer li {
+    float: left;
+    border-right: solid 1px;
+}
+footer a {
+    margin: 0 20px;
+    color:  #333333;
+}
+footer p {
+    clear: both;
+}
